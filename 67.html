@@ -1,1 +1,34 @@
+<html>
+    <head>
+        <title>CSS3 3D Animations</title>
+        <style>
+            #mydiv{
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                -webkit-animation-name: example;
+                -webkit-animation-duration: 4s;
+                animation-name: example;
+                animation-duration: 4s;
+            }
 
+            @-webkit-keyframes example{
+                0% {background-color: red;}
+                25% {background-color: yellow;}
+                50% {background-color: blue;}
+                100% {background-color: green;}
+            }
+
+            @keyframes example {
+                0% {background-color: red;}
+                25% {background-color: yellow;}
+                50% {background-color: blue;}
+                100% {background-color: green;}
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="mydiv"></div>
+    </body>
+</html>
