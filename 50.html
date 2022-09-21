@@ -1,1 +1,22 @@
+<!-- CSS defines three types of gradients:
 
+Linear Gradients (goes down/up/left/right/diagonally)
+Radial Gradients (defined by their center)
+Conic Gradients (rotated around a center point)  -->
+
+<html>
+    <head>
+        <style>
+            #grad1{
+                height: 100px;
+                background: -webkit-linear-gradient(pink,green); /* top,bottom */
+                background: -o-linear-gradient(pink,green);
+                background: -moz-linear-gradient(pink,green);
+                background: linear-gradient(pink,green);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grad1"></div>
+    </body>
+</html>
