@@ -1,1 +1,32 @@
+<html>
+    <head>
+        <title>CSS 2D Transform</title>
+        <style>
+            div{
+                width: 300px;
+                height: 100px;
+                background-color: pink;
+                border: 1px solid black;
+            }
+            #myDiv{
+                /* IE 9 */
+                /* default skewX */
+                -ms-transform: skew(20deg);
+                /* 20deg */
 
+                /* Safari */
+                -webkit-transform: skew(20deg);
+                /* 20deg */
+
+                /* Standard syntax */
+                transform: skew(20deg);
+                /* 20deg */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>Tutorials point.com</div>
+        <div id="myDiv">Tutorials point.com</div>
+    </body>
+</html>
